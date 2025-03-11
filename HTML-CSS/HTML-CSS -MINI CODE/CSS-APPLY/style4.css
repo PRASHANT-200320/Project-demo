@@ -1,0 +1,36 @@
+ /* h2{
+    color: orange;
+   
+    
+}
+button{
+    color: white;
+    background-color: blue;
+   
+
+}
+p{
+    background-color: white;
+    color: black;
+    /* text-align: justify; */
+    /* text-decoration-style: dashed; */
+    /* text-decoration:dashed line-through; */
+/* }  */ 
+
+
+
+
+h1 {
+    font-family: League spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5x;
+    text-decoration: teal  double underline;
+    text-transform: uppercase;
+
+
+
+}
