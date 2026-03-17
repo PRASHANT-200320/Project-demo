@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Quiz App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="app">
+    <h1>🧠 Smart Quiz</h1>
+    <div id="category-select">
+      <p>Select a Category:</p>
+      <button onclick="startQuiz('js')">JavaScript</button>
+      <button onclick="startQuiz('html')">HTML</button>
+      <button onclick="startQuiz('css')">CSS</button>
+    </div>
+
+    <div id="quiz-box" class="hide">
+      <div class="progress-bar" id="progress"></div>
+      <h2 id="question-text">Question appears here</h2>
+      <div id="answers" class="btn-container"></div>
+      <p id="feedback"></p>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <div id="result-box" class="hide">
+      <h2>Quiz Completed </h2>
+      <p>Your Score: <span id="final-score"></span></p>
+      <button onclick="restartQuiz()">Try Again</button>
+    </div>
+  </div>
+
+ <script type="module" src="script.js"></script>
+
+</body>
+</html>
